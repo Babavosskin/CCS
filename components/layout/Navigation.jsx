@@ -20,8 +20,8 @@ export default function Navigation() {
   const navLinks = [
     { href: '/', label: 'Home' },
     { href: '/services', label: 'Services' },
-    { href: '/contact?tab=careers', label: 'Careers' },
     { href: '/contact', label: 'Contact' },
+    { href: '/contact?tab=careers', label: 'Careers' },
   ];
 
   const isActive = (href) => {
